@@ -1,3 +1,4 @@
-theme: jekyll-theme-minimal
+theme: jekyll-theme-hacker
 title: Simon Jeffrey's Homepage
-description: Bookmark this to keep an eye on my project updates!
+description: Here you will find my projects and blog
+google_analytics:
