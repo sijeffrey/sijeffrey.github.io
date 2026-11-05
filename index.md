@@ -2,7 +2,7 @@
 layout: default
 ---
 
-Simon Jeffrey is a senior software engineer at Amazon, where he leads bot and fraud prevention. Before that he worked on Amazon's identity infrastructure, and earlier on data center infrastructure in Japan and across Asia-Pacific.
+Simon Jeffrey is a senior software engineer at Amazon, where he leads bot and fraud prevention for a high-traffic, customer-facing platform. Before that he worked on Amazon's identity infrastructure, and earlier on data center infrastructure in Japan and across Asia-Pacific.
 
 Before Amazon, he spent twelve years keeping communications and control systems running on offshore oil and gas platforms in the North Sea and abroad. He has also been a flying instructor in the south of France, taking students from ab-initio to a full private pilot's licence (PPL).
 
