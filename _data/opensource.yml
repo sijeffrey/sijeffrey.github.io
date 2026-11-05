@@ -1,0 +1,7 @@
+# Contributions to other people's projects. "note" shows in brackets.
+- name: Kitty graphics probe fails on iTerm2's reply
+  url: https://github.com/anthropics/claude-code/issues/95448
+  note: Claude Code bug report, 2026
+- name: Fix broken API Gateway link in Module 8D
+  url: https://github.com/aws-samples/aws-serverless-security-workshop/pull/18
+  note: AWS Serverless Security Workshop, 2019
