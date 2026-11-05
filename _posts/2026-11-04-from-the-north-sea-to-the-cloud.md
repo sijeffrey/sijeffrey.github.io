@@ -3,6 +3,7 @@ layout: post
 title: From the North Sea to the Cloud
 subtitle: Twenty years of keeping systems running
 toc: true
+description: "How twelve years on North Sea platforms, flight instruction in France and data centers across Asia-Pacific led to software engineering at Amazon."
 ---
 
 This is the first post on the new site. It isn't the usual route into software, so I thought I'd start with how I got here.

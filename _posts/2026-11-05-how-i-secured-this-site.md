@@ -3,6 +3,7 @@ layout: post
 title: How I Secured This Site
 subtitle: A static site still has things worth protecting
 toc: true
+description: "Securing a static GitHub Pages site: domain verification, security.txt, SPF, DMARC, null MX, CAA and security headers through Cloudflare."
 ---
 
 This site is a handful of static pages on GitHub Pages. There's no login or database, but the domain and its email are still worth protecting. This post covers what I changed, why, and what I've left for later.

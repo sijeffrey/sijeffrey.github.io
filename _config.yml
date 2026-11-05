@@ -1,7 +1,12 @@
 title: Simon Jeffrey
-description: Simon Jeffrey's homepage, writing and projects
+description: Senior software engineer at Amazon, leading bot and fraud prevention for a high-traffic platform. Writing on web security and engineering.
 url: https://sijeffrey.com
 author: Simon Jeffrey
+social:
+  name: Simon Jeffrey
+  links:
+    - https://www.linkedin.com/in/sijeffrey
+    - https://github.com/sijeffrey
 permalink: /:title/
 markdown: kramdown
 kramdown:
@@ -14,3 +19,8 @@ include:
   - .well-known
 exclude:
   - README.md
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/og-default.png
