@@ -36,6 +36,12 @@ He holds a BSc in Computing and IT from The Open University and an HND in Teleco
 - [{{ p.name }}]({{ p.url }}) <span class="meta">({{ p.note }})</span>
 {% endfor %}
 
+## Reading
+
+{% for b in site.data.reading %}
+- *{{ b.title }}* by {{ b.author }} <span class="meta">({{ b.year }})</span>
+{% endfor %}
+
 ## Elsewhere
 
 - [LinkedIn](https://www.linkedin.com/in/sijeffrey)
