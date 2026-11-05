@@ -24,13 +24,13 @@ He holds a BSc in Computing and IT from The Open University and an HND in Teleco
 - [{{ p.name }}]({{ p.url }}){% if p.note %} <span class="meta">({{ p.note }})</span>{% endif %}
 {% endfor %}
 
-## Open source
+## Community
 
 {% for p in site.data.opensource %}
 - [{{ p.name }}]({{ p.url }}) <span class="meta">({{ p.note }})</span>
 {% endfor %}
 
-## Work featured publicly
+## Featured work
 
 {% for p in site.data.featured %}
 - [{{ p.name }}]({{ p.url }}) <span class="meta">({{ p.note }})</span>
