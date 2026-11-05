@@ -17,7 +17,7 @@ Offshore you can't phone a vendor and wait three days for someone to turn up. Th
 
 Alongside that I was a flying instructor in the south of France from 2001 to 2015, taking students from ab-initio to a full PPL. Teaching someone to fly is mostly teaching them to make decisions under pressure. Stay calm, work the problem in the right order, and don't let a small issue grow because nobody made a call. I didn't realize at the time how much of that would carry over into leading engineers.
 
-## AWS
+## Amazon
 
 I joined AWS in 2017 as a network technician in Osaka, Japan. After that I spent two and a half years as a program manager in data center operations across Asia-Pacific. Then I moved into engineering. First on modular data centers and edge hardware, then on identity infrastructure used across Amazon. Today I work on bot and fraud prevention.
 
