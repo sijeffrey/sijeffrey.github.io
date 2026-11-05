@@ -1,0 +1,4 @@
+# Add a project: copy an entry. "note" is optional and shows in brackets.
+- name: This site
+  url: https://github.com/sijeffrey/sijeffrey.github.io
+  note: Jekyll on GitHub Pages

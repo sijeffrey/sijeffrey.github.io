@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    (function () {
+      var t = localStorage.getItem("theme");
+      if (!t) t = window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+      document.documentElement.setAttribute("data-theme", t);
+    })();
+  </script>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  {% seo %}
+  {% feed_meta %}
+</head>
+<body>
+  {% if page.layout == "post" %}
+  <a class="close" href="{{ '/' | relative_url }}" aria-label="Back to home">&times;</a>
+  {% endif %}
+  <div class="page">
+    <header class="site-header">
+      <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <button class="theme-toggle" type="button" aria-label="Toggle light and dark mode"><span></span></button>
+    </header>
+    {{ content }}
+  </div>
+  <script src="{{ '/assets/js/site.js' | relative_url }}"></script>
+</body>
+</html>

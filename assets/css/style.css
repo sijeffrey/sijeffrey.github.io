@@ -1,0 +1,66 @@
+:root, [data-theme="dark"] {
+  --bg: #1f1e1d;
+  --text: #f0eee6;
+  --muted: #a8a59c;
+}
+[data-theme="light"] {
+  --bg: #faf9f5;
+  --text: #1f1e1d;
+  --muted: #6b6963;
+}
+* { box-sizing: border-box; }
+html { background: var(--bg); }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Charter, Georgia, serif;
+  font-size: 19px;
+  line-height: 1.68;
+  -webkit-font-smoothing: antialiased;
+}
+::selection { background: rgba(0, 100, 255, 0.26); }
+a { color: inherit; text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
+a:hover { text-decoration-thickness: 2px; }
+
+.page { max-width: 580px; margin: 0 auto; padding: 24px 20px 96px; }
+.site-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 40px; }
+.site-title { font-size: 28px; font-weight: 700; text-decoration: none; letter-spacing: -0.01em; }
+
+.theme-toggle {
+  width: 38px; height: 20px; padding: 0; border: 0; border-radius: 10px;
+  background: var(--text); cursor: pointer; position: relative;
+}
+.theme-toggle span {
+  position: absolute; top: 3px; width: 14px; height: 14px; border-radius: 50%;
+  background: var(--bg); right: 3px; transition: right 0.2s;
+}
+[data-theme="light"] .theme-toggle span { right: 21px; }
+
+h1, h2, h3 { line-height: 1.25; text-wrap: balance; }
+h2 { font-size: 23px; margin: 36px 0 12px; }
+h3 { font-size: 20px; margin: 28px 0 8px; }
+p { margin: 0 0 20px; }
+ul, ol { padding-left: 20px; margin: 0 0 20px; }
+li { margin-bottom: 12px; }
+li::marker { color: var(--text); }
+.meta { color: var(--muted); }
+blockquote { margin: 0 0 20px; padding-left: 18px; border-left: 2px solid var(--muted); color: var(--muted); }
+code { font-size: 0.85em; }
+pre { overflow-x: auto; padding: 14px; border: 1px solid var(--muted); border-radius: 4px; font-size: 15px; line-height: 1.5; }
+img { max-width: 100%; height: auto; }
+hr { border: 0; border-top: 1px solid var(--muted); margin: 36px 0; }
+
+.post-title { font-size: 56px; letter-spacing: -0.02em; margin: 0 0 12px; }
+.subtitle { font-style: italic; font-size: 21px; margin: 0 0 32px; }
+.date { color: var(--muted); font-size: 16px; margin-bottom: 24px; }
+
+.close { position: fixed; top: 18px; left: 24px; font-size: 32px; line-height: 1; text-decoration: none; }
+.toc { position: fixed; top: 128px; left: 24px; width: 210px; }
+.toc h2 { font-size: 22px; margin: 0 0 20px; }
+.toc ol { list-style: none; padding: 0; }
+.toc li { margin-bottom: 10px; line-height: 1.4; }
+.toc a { color: var(--muted); text-decoration: none; }
+.toc a:hover { color: var(--text); }
+@media (max-width: 1100px) { .toc { display: none; } }
+@media (max-width: 600px) { .post-title { font-size: 40px; } body { font-size: 18px; } }
