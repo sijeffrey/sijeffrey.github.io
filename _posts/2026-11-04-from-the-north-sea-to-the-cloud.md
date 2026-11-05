@@ -20,7 +20,7 @@ Alongside that I was a flying instructor in the south of France from 2001 to 201
 
 ## Amazon
 
-I joined AWS in 2017 as a network technician in Osaka, Japan. After that I spent two and a half years as a program manager in data center operations across Asia-Pacific. Then I moved into engineering. First on modular data centers and edge hardware, then on identity infrastructure used across Amazon. Today I work on bot and fraud prevention.
+I joined AWS in 2017 as a network technician in Osaka, Japan. After that I spent two and a half years as a program manager in data center operations across Asia-Pacific. Then I moved into engineering. First on modular data centers and edge hardware, then on identity infrastructure used across Amazon. Today I lead bot and fraud prevention for a high-traffic, customer-facing platform.
 
 The domains changed a lot but the job **didn't** really. It is still keeping systems running that people depend on. And being honest about what we actually know about them, not what the design says.
 
