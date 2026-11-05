@@ -1,4 +1,16 @@
 # Add a project: copy an entry. "note" is optional and shows in brackets.
+- name: Photo Organizer
+  url: https://github.com/sijeffrey/photo-organizer
+  note: local photo albums, Vite and Node with SQLite, 2026
+- name: SoundTouch
+  url: https://github.com/sijeffrey/SoundTouch
+  note: Linux control for Bose SoundTouch speakers, 2017
+- name: Supervisory Alarm System
+  url: https://github.com/sijeffrey/Supervisory
+  note: ATmega328p replacement for an end-of-life alarm PLC, 2016
+- name: Wireless PIR
+  url: https://github.com/sijeffrey/WirelessPIR
+  note: remote motion switch with NRF24L01+ radios, 2016
 - name: This site
   url: https://github.com/sijeffrey/sijeffrey.github.io
   note: Jekyll on GitHub Pages
