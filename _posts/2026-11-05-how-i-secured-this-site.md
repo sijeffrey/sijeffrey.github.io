@@ -38,7 +38,8 @@ GitHub Pages wasn't sending any security headers, and I couldn't find a way to a
 
 - `Strict-Transport-Security`, so browsers only ever use HTTPS
 - `X-Content-Type-Options: nosniff`
-- `X-Frame-Options: DENY` and a CSP `frame-ancestors 'none'`, so no one can frame the site
+- `X-Frame-Options: DENY`, so no one can frame the site
+- a `Content-Security-Policy` that only allows scripts, styles and images from the site itself, and also blocks framing
 - `Referrer-Policy: strict-origin-when-cross-origin`
 - `Permissions-Policy`, turning off the camera, microphone and location
 - `Cross-Origin-Opener-Policy: same-origin`
@@ -47,11 +48,9 @@ The SSL mode needs to be right first. With GitHub Pages behind Cloudflare it sho
 
 ## What I left out
 
-Two things aren't done yet.
+One thing isn't done yet, and that's HSTS preload. Preloading needs a max-age of at least a year and removal from the list "tends to be slow and painful" [[8]](https://hstspreload.org/). So I **did not** turn on preload, and set six months for now. I'll revisit once the setup has been stable for a while.
 
-The first is HSTS preload. Preloading needs a max-age of at least a year and removal from the list "tends to be slow and painful" [[8]](https://hstspreload.org/). So I **did not** turn on preload, and set six months for now. I'll revisit once the setup has been stable for a while.
-
-The second is a full Content Security Policy. The current one only covers framing and a few basics. A stricter policy would however block the small inline script that sets the light or dark theme, so that script needs moving into its own file first. Small change, but I'd rather do it properly than ship a policy that breaks the page.
+The full Content Security Policy came shortly after. The first version only covered framing and a few basics, as a stricter policy would have blocked the small inline script that sets the light or dark theme. Moving that script into its own file was a small change, and it let the policy drop inline scripts altogether.
 
 ## How to check your own site
 
