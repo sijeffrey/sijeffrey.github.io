@@ -252,6 +252,7 @@
       return;
     }
     typeText(errorEl, "", 0);
+    inputEl.blur(); // closes the on-screen keyboard on phones
     choose(PLAYERS[reply]);
   }
   // There is no Play button: Enter answers the prompt.
